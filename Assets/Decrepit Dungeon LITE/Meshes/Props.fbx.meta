@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: fd75e63c14c4540438372a6844af68b6
 ModelImporter:
-  serializedVersion: 18
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: Arch_Gate
     100002: Bar_1
@@ -1345,36 +1345,268 @@ ModelImporter:
     4300514: Leg_2
     4300516: Leg_3
     4300518: Leg_4
+    6400000: Arch_Gate
+    6400002: Bar_1
+    6400004: Bar_2
+    6400006: Bar_3
+    6400008: Bar_4
+    6400010: Bar_5
+    6400012: Barrel
+    6400014: Bucket
+    6400016: Candle_A
+    6400018: Candle_B
+    6400020: Candle_C
+    6400022: Candle_D
+    6400024: Candle_E
+    6400026: Chain_Link_1
+    6400028: Chain_Link_1 1
+    6400030: Chain_Link_1 2
+    6400032: Chain_Link_1 3
+    6400034: Chain_Link_1 4
+    6400036: Chain_Link_10
+    6400038: Chain_Link_10 1
+    6400040: Chain_Link_10 2
+    6400042: Chain_Link_10 3
+    6400044: Chain_Link_10 4
+    6400046: Chain_Link_11
+    6400048: Chain_Link_11 1
+    6400050: Chain_Link_11 2
+    6400052: Chain_Link_11 3
+    6400054: Chain_Link_11 4
+    6400056: Chain_Link_12
+    6400058: Chain_Link_12 1
+    6400060: Chain_Link_12 2
+    6400062: Chain_Link_12 3
+    6400064: Chain_Link_12 4
+    6400066: Chain_Link_13
+    6400068: Chain_Link_13 1
+    6400070: Chain_Link_13 2
+    6400072: Chain_Link_14
+    6400074: Chain_Link_14 1
+    6400076: Chain_Link_14 2
+    6400078: Chain_Link_15
+    6400080: Chain_Link_15 1
+    6400082: Chain_Link_15 2
+    6400084: Chain_Link_16
+    6400086: Chain_Link_16 1
+    6400088: Chain_Link_16 2
+    6400090: Chain_Link_17
+    6400092: Chain_Link_17 1
+    6400094: Chain_Link_17 2
+    6400096: Chain_Link_18
+    6400098: Chain_Link_18 1
+    6400100: Chain_Link_18 2
+    6400102: Chain_Link_19
+    6400104: Chain_Link_19 1
+    6400106: Chain_Link_19 2
+    6400108: Chain_Link_2
+    6400110: Chain_Link_2 1
+    6400112: Chain_Link_2 2
+    6400114: Chain_Link_2 3
+    6400116: Chain_Link_2 4
+    6400118: Chain_Link_20
+    6400120: Chain_Link_20 1
+    6400122: Chain_Link_20 2
+    6400124: Chain_Link_21
+    6400126: Chain_Link_21 1
+    6400128: Chain_Link_21 2
+    6400130: Chain_Link_22
+    6400132: Chain_Link_22 1
+    6400134: Chain_Link_22 2
+    6400136: Chain_Link_23
+    6400138: Chain_Link_23 1
+    6400140: Chain_Link_23 2
+    6400142: Chain_Link_24
+    6400144: Chain_Link_24 1
+    6400146: Chain_Link_24 2
+    6400148: Chain_Link_25
+    6400150: Chain_Link_25 1
+    6400152: Chain_Link_25 2
+    6400154: Chain_Link_26
+    6400156: Chain_Link_26 1
+    6400158: Chain_Link_26 2
+    6400160: Chain_Link_27
+    6400162: Chain_Link_27 1
+    6400164: Chain_Link_27 2
+    6400166: Chain_Link_28
+    6400168: Chain_Link_28 1
+    6400170: Chain_Link_28 2
+    6400172: Chain_Link_29
+    6400174: Chain_Link_29 1
+    6400176: Chain_Link_29 2
+    6400178: Chain_Link_3
+    6400180: Chain_Link_3 1
+    6400182: Chain_Link_3 2
+    6400184: Chain_Link_3 3
+    6400186: Chain_Link_3 4
+    6400188: Chain_Link_30
+    6400190: Chain_Link_30 1
+    6400192: Chain_Link_30 2
+    6400194: Chain_Link_31
+    6400196: Chain_Link_31 1
+    6400198: Chain_Link_31 2
+    6400200: Chain_Link_32
+    6400202: Chain_Link_4
+    6400204: Chain_Link_4 1
+    6400206: Chain_Link_4 2
+    6400208: Chain_Link_4 3
+    6400210: Chain_Link_4 4
+    6400212: Chain_Link_5
+    6400214: Chain_Link_5 1
+    6400216: Chain_Link_5 2
+    6400218: Chain_Link_5 3
+    6400220: Chain_Link_5 4
+    6400222: Chain_Link_6
+    6400224: Chain_Link_6 1
+    6400226: Chain_Link_6 2
+    6400228: Chain_Link_6 3
+    6400230: Chain_Link_6 4
+    6400232: Chain_Link_7
+    6400234: Chain_Link_7 1
+    6400236: Chain_Link_7 2
+    6400238: Chain_Link_7 3
+    6400240: Chain_Link_7 4
+    6400242: Chain_Link_8
+    6400244: Chain_Link_8 1
+    6400246: Chain_Link_8 2
+    6400248: Chain_Link_8 3
+    6400250: Chain_Link_8 4
+    6400252: Chain_Link_9
+    6400254: Chain_Link_9 1
+    6400256: Chain_Link_9 2
+    6400258: Chain_Link_9 3
+    6400260: Chain_Link_9 4
+    6400262: Crate_A
+    6400264: Crate_B
+    6400266: Crate_C
+    6400268: Debris_1
+    6400270: Debris_1 1
+    6400272: Debris_2
+    6400274: Debris_2 1
+    6400276: Floor_Cage
+    6400278: Floor_Gate
+    6400280: Hanging_Cage
+    6400282: Hook
+    6400284: Hook 1
+    6400286: Key_A
+    6400288: Key_B
+    6400290: Key_C
+    6400292: Keychain
+    6400294: Left_Side
+    6400296: Leg_1
+    6400298: Leg_1 1
+    6400300: Leg_1 2
+    6400302: Leg_2
+    6400304: Leg_2 1
+    6400306: Leg_2 2
+    6400308: Leg_3
+    6400310: Leg_3 1
+    6400312: Leg_3 2
+    6400314: Leg_4
+    6400316: Leg_4 1
+    6400318: Leg_4 2
+    6400320: Peg_1
+    6400322: Peg_2
+    6400324: Plate
+    6400326: Plate 1
+    6400328: Right_Side
+    6400330: Stone_1
+    6400332: Stone_2
+    6400334: Stool_A
+    6400336: Stool_A_Broken 1
+    6400338: Table_Top
+    6400340: Table_Top 1
+    6400342: Table_Top 2
+    6400344: Torch
+    6400346: Tunnel_Grate
+    6400348: Tunnel_Grate_Broken 1
+    6400350: Wood_Seat
     9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Black
+    second: {fileID: 2100000, guid: 8bc5ac0fe40131e47928f741c680005f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Metal_A
+    second: {fileID: 2100000, guid: 02c07345313cb814eb6dcd63462e338a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Metal_B
+    second: {fileID: 2100000, guid: 199644c02aaad764ab340ad4746e055d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Stone_A
+    second: {fileID: 2100000, guid: abf168830e83d264faa8fadb4d51cd13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Wax_A
+    second: {fileID: 2100000, guid: 4e76a25edb2e4b8468dff616e0be6496, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Wood_A
+    second: {fileID: 2100000, guid: 556a0ec4707c1314996b87c43416357b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Wood_B
+    second: {fileID: 2100000, guid: 4d38aa63d216bca45bbaa534d09d5d9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Wood_C
+    second: {fileID: 2100000, guid: 18f96cd0b7113f942bc0d421eaa81466, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -1382,24 +1614,30 @@ ModelImporter:
     useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
