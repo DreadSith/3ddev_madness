@@ -5102,6 +5102,11 @@ Prefab:
       propertyPath: health
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 195499874481851932, guid: c11df42dcd0ffcc4d9635626f424cd42,
+        type: 2}
+      propertyPath: m_StoppingDistance
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c11df42dcd0ffcc4d9635626f424cd42, type: 2}
   m_IsPrefabParent: 0
@@ -14150,6 +14155,21 @@ MonoBehaviour:
   PlayAgain: {fileID: 745879932}
   Exit: {fileID: 383011967}
   spawner: {fileID: 127512404}
+--- !u!208 &457409088
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 457409083}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 4, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!4 &459093277 stripped
 Transform:
   m_PrefabParentObject: {fileID: 493220, guid: 9399e3d779d8660489d87c9559841721, type: 2}
@@ -18673,6 +18693,11 @@ Prefab:
         type: 2}
       propertyPath: health
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 195499874481851932, guid: c11df42dcd0ffcc4d9635626f424cd42,
+        type: 2}
+      propertyPath: m_StoppingDistance
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c11df42dcd0ffcc4d9635626f424cd42, type: 2}
@@ -49206,6 +49231,11 @@ Prefab:
         type: 2}
       propertyPath: m_Convex
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 195499874481851932, guid: c11df42dcd0ffcc4d9635626f424cd42,
+        type: 2}
+      propertyPath: m_StoppingDistance
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c11df42dcd0ffcc4d9635626f424cd42, type: 2}
