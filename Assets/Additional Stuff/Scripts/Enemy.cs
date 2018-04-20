@@ -27,7 +27,7 @@ public class Enemy : MonoBehaviour {
 	}
 
     IEnumerator UpdatePath() {
-        float refreshRate = 0.5f;
+        float refreshRate = 1f;
 
         while (target != null)
         {

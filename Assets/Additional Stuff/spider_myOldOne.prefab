@@ -2152,6 +2152,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 50
   Anim: {fileID: 7400022, guid: bc600cce01eb57a409f4e69025868a2c, type: 3}
+  objectToAccess: {fileID: 1269396315906398, guid: f1e9df42b3ac7444aa9c23b1d29522a7,
+    type: 2}
 --- !u!114 &114907613771588162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2163,6 +2165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66634cbc3efe21e439e5e77449b32ece, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Dmg: 0
 --- !u!137 &137716392554640070
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
