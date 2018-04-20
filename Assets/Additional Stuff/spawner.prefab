@@ -52,8 +52,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf04972e5d8743545879cf64c7ed24e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnee: {fileID: 1512341165209312, guid: 728d8b284a4c38d419e74846452bf86e, type: 2}
   spawnTime: 0
-  spawnee: {fileID: 0}
 --- !u!114 &114854885935962444
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 718237b10ce65ef4dbad6b395910b70e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnee: {fileID: 0}
+  spawnee: {fileID: 1512341165209312, guid: 728d8b284a4c38d419e74846452bf86e, type: 2}
   spawnTime: 1
   spawnDelay: 2
   spawnUntil: 3

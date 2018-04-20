@@ -44,6 +44,11 @@ public class Health : MonoBehaviour
 
     }
 
+    public void GainHealth(int amount)
+    {
+        currentHealth = currentHealth + amount;
+    }
+
     void DestroyAllSpiders()
     {
         spiders = GameObject.FindGameObjectsWithTag("Spider");
